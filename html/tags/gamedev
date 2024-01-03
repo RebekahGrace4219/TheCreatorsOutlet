@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/style.css" type="text/css">
-    <title>Blog</title>
+    <title>gamedev</title>
   </head>
   <body>
 
@@ -17,7 +17,7 @@
 <a href = "html/contact.html">Contact</a>
 </nav>
 </header>
-<h1>?Blog</h1><ul>
+<h1>?gamedev</h1><ul>
 <li class = "blogentry">
     <div class = "date"><p>31.12.2023<p></div>
     <div class = "blogtitle"><p>New Year, New Me!<p></div>

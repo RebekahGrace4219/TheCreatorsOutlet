@@ -8,7 +8,7 @@
     "SignOff": "See You Next Year,",
     "SignedName": "The Creator",
     "Route":"new-year-new-me",
-    "Tags":["goals"],
+    "Tags":["goals", "gamedev"],
     "Body": {
         "P1": {
             "Type": "Text",

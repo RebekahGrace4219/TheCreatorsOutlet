@@ -1,24 +1,6 @@
-from create_header import create_header
-
-head = """
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/style.css" type="text/css">
-    <title>Blog</title>
-  </head>
-  <body>
-
-
-
-"""
-
-bottom = "</body></html>"
-
-def create_blog_list():
+from create_blog_list import create_list_html
 
 def write_index_file(blogs):
     f = open("../index.html", "w")
-    f.write(head + create_header() + create_blog_list(blogs) + bottom)
+    f.write(create_list_html(title = "Blog", blog_list = blogs))
     return
