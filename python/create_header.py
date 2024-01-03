@@ -2,7 +2,7 @@
 def create_header():
         return """
 <header>
-<a class="home" href="/TheCreatorsOutlet/html/about-me.html">Home</a>
+<a class="home" href="/TheCreatorsOutlet/">Home</a>
 <nav>
 <a href ="https://github.com/RebekahGrace4219">GitHub</a>
 <a href = "/TheCreatorsOutlet/html/about-me.html">About Me</a>
