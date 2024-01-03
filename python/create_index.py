@@ -17,6 +17,6 @@ head = """
 bottom = "</body></html>"
 
 def write_index_file(blogs):
-    f = open("../html/index.html", "w")
+    f = open("../index.html", "w")
     f.write(head + create_header() + bottom)
     return
