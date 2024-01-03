@@ -1,3 +1,5 @@
+from create_header import create_header
+
 head = """
 <html>
   <head>
@@ -6,12 +8,15 @@ head = """
     <link rel="stylesheet" href="/style.css" type="text/css">
     <title>Blog</title>
   </head>
+  <body>
 
 
 
 """
 
-bottom = "</html>"
+bottom = "</body></html>"
 
 def write_index_file(blogs):
-    return head + bottom
+    f = open("../html/index.html", "w")
+    f.write(head + create_header() + bottom)
+    return
