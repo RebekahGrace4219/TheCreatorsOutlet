@@ -16,5 +16,5 @@ def write_tag_files(blogs):
     tags = get_tags(blogs)
 
     for tag_key in tags:
-        f = open("../html/tags/"+tag_key, "w")
+        f = open("../html/tags/"+tag_key+".html", "w")
         f.write(create_list_html(title = tag_key, blog_list = tags[tag_key]))
