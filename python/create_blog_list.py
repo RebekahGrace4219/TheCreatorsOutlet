@@ -14,7 +14,7 @@ def create_blog_list(title, blogs):
 
     return string
 
-def create_list_html(title, blog_list):
+def create_list_html(title, blog_list, is_index = False):
     head = """
 <html>
   <head>
@@ -28,4 +28,4 @@ def create_list_html(title, blog_list):
 
     bottom = "</body></html>"
 
-    return head + create_header() + create_blog_list(title, blog_list) + bottom
+    return head + create_header(is_index) + create_blog_list(title, blog_list) + bottom
