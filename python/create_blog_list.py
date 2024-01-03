@@ -2,7 +2,7 @@ from create_header import create_header
 
 def create_blog_list(title, blogs, is_index = False):
     header = "html/" if is_index else ""
-    string = "<h1>?{title}</h1><ul>".format(title = title)
+    string = "<h1>{title}</h1><ul>".format(title = title)
     for blog in blogs:
         string += """
 <li class = "blogentry">
