@@ -6,9 +6,9 @@ def create_blog_list(title, blogs):
         string += """
 <li class = "blogentry">
     <div class = "date"><p>{day}.{month}.{year}<p></div>
-    <div class = "blogtitle"><p>{title}<p></div>
+    <div class = "blogtitle"><a href = "/blogs/{route}">{title}</a></div>
 </li>
-""".format(day = blog.day, month = blog.month, year = blog.year, title = blog.title)
+""".format(day = blog.day, month = blog.month, year = blog.year, route = blog.route, title = blog.title)
 
     string += "</ul>"
 
