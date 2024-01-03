@@ -1,13 +1,12 @@
 
-def create_header(is_index = False):
-        header = "html/" if is_index else ""
+def create_header():
         return """
 <header>
-<a class="home" href="/TheCreatorsOutlet">Home</a>
+<a class="home" href="https://rebekahgrace4219.github.io/TheCreatorsOutlet/html/about-me.html">Home</a>
 <nav>
 <a href ="https://github.com/RebekahGrace4219">GitHub</a>
-<a href = "{header}about-me.html">About Me</a>
-<a href = "{header}contact.html">Contact</a>
+<a href = "https://rebekahgrace4219.github.io/TheCreatorsOutlet/html/about-me.html">About Me</a>
+<a href = "https://rebekahgrace4219.github.io/TheCreatorsOutlet/html/contact.html">Contact</a>
 </nav>
 </header>
-""".format(header = header)
+"""
