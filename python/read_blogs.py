@@ -48,7 +48,7 @@ class Blog:
     def format_tags(self):
         tag_text = ""
         for tag in self.tags:
-            tag_text += "<li>\n\t<a href = \"../../tags/{tag}\">{tag}</a>\n</li>".format(tag = tag)
+            tag_text += "<li>\n\t<a href = \"/TheCreatorsOutlet/html/tags/{tag}.html\">{tag}</a>\n</li>".format(tag = tag)
 
         return tag_text
 
@@ -58,7 +58,7 @@ class Blog:
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="/TheCreatorsOutlet/style.css" type="text/css">
         <title>{title}</title>
     </head>
     <body>
