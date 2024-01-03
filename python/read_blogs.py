@@ -48,7 +48,7 @@ class Blog:
     def format_tags(self):
         tag_text = ""
         for tag in self.tags:
-            tag_text += "<li>\n\t<a href = \"/tags/{tag}\">{tag}</a>\n</li>".format(tag = tag)
+            tag_text += "<li>\n\t<a href = \"html/tags/{tag}\">{tag}</a>\n</li>".format(tag = tag)
 
         return tag_text
 
