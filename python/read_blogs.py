@@ -66,7 +66,7 @@ class Blog:
         <div class = "blogpost">
             <h1>{title}</h1>
             <h2>{date}</h2>
-            <ul class = "tagslist">
+            <ul class = "taglist">
 {tags}
             </ul>
             <div class = "blogpostbody">
