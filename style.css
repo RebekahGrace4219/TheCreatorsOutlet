@@ -138,5 +138,11 @@ header {
 }
 
 .blogtitle{
-    padding-left: 10px;
+    padding-left: 20px;
+}
+
+.taglist{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }

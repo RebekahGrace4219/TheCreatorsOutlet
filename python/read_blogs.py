@@ -48,7 +48,7 @@ class Blog:
     def format_tags(self):
         tag_text = ""
         for tag in self.tags:
-            tag_text += "<li>\n\t<a href = \"/TheCreatorsOutlet/html/tags/{tag}.html\">{tag}</a>\n</li>".format(tag = tag)
+            tag_text += "<li class = \"tagitem\">\n\t<a href = \"/TheCreatorsOutlet/html/tags/{tag}.html\">{tag}</a>\n</li>".format(tag = tag)
 
         return tag_text
 
@@ -66,7 +66,7 @@ class Blog:
         <div class = "blogpost">
             <h1>{title}</h1>
             <h2>{date}</h2>
-            <ul>
+            <ul class = "tagslist">
 {tags}
             </ul>
             <div class = "blogpostbody">
