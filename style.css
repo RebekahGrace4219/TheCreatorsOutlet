@@ -20,8 +20,8 @@ html {
  } }
 
 h1, h2, h3, h4 {
-    margin: 2.5rem 0 1.5rem 0;
-    line-height: 1.25;
+    margin: 1.5rem 0 1rem 0;
+    line-height: 1;
     color: #333;
  }
 
@@ -119,7 +119,7 @@ table, .highlight > pre, pre.example {
     font-style: italic;
 }
 
-.header {
+header {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -135,4 +135,8 @@ table, .highlight > pre, pre.example {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+}
+
+.blogtitle{
+    padding-left: 10px;
 }
