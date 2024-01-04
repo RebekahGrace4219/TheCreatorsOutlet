@@ -29,6 +29,7 @@ a {
     color: #DA9100;
     text-decoration: none;
  }
+
 a:hover, a:focus, a:active {
     text-decoration: underline;
  }
@@ -45,6 +46,7 @@ p code {
 
 ol, ul {
     margin: 1em;
+    list-style: none;
  }
 ol li ol, ol li ul, ul li ol, ul li ul {
     margin: 0 2em;
@@ -112,6 +114,25 @@ table, .highlight > pre, pre.example {
     border: 1px dashed rgba(250, 100, 50, 0.5);
 }
 
+/* Self-Made CSS */
 .italics {
     font-style: italic;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.headeritem{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.blogentry {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
