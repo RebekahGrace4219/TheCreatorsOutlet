@@ -146,3 +146,7 @@ header {
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+.tagitem{
+    width: 50px;
+}
