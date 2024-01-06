@@ -42,6 +42,10 @@ class Blog:
 
             if body_part["Type"] == "Text":
                 body_text += "<p>{body_text}</p>\n".format(body_text = body_part["Content"])
+            if body_part["Type"] == "Link":
+                body_text += "<a href=\"{link}\">{body_text}</a>\n".format(link = body_part["Link"], body_text = body_part["Text"])
+            if body_part["Type"] == "Video":
+                body_text += "<iframe class = \"video\" src=\"{link}\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n".format(link = body_part["Link"])
 
         return body_text
 
